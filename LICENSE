@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+SCOPE NOTICE
+
+This license covers only the original code and documentation in this
+repository: the HTML/CSS shell, the engine and scene modules under engine/, and
+the parsing, extraction and verification tooling under tools/.
+
+It does NOT cover, license, or grant any right to any third-party work, which
+is deliberately absent from this repository and must be supplied by the user:
+
+  - sound recordings and musical compositions (including any .mp3 / .wav),
+  - MIDI transcriptions (any .mid / .midi),
+  - song lyrics (any .lrc / text),
+  - and anything generated from those works, which is ignored by .gitignore:
+    data/*.js, tools/audio-analysis.json, tools/midi-notes.json,
+    world-execute-me.html and any screenshot or capture of the animation.
+
+Running this code produces derivative output from whatever audio, MIDI and
+lyric files you provide. You are responsible for having the right to use those
+files and any resulting output.

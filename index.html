@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>world.execute(me); — animated runtime</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="stage"></canvas>
+    <div id="banner"></div>
+    <div id="boot">
+      <div class="boot-inner">
+        <div class="boot-title">world.execute(me);</div>
+        <div class="boot-sub">Mili · lyric animation driven by the MIDI chart, the LRC timings and the measured waveform</div>
+        <div class="boot-row"><span class="k">audio</span><span class="v" id="boot-audio">assets/world-execute-me.mp3</span></div>
+        <div class="boot-row"><span class="k">midi</span><span class="v" id="boot-midi">1416 note events, 120 BPM grid, 0&ndash;159.75 s</span></div>
+        <div class="boot-row"><span class="k">lrc</span><span class="v" id="boot-lrc">96 sung lines, measured timestamps</span></div>
+        <button id="boot-btn" type="button">RUN</button>
+        <div class="boot-keys">space play/pause · &larr; &rarr; seek 1 s · shift+&larr; &rarr; 10 s · click the bottom rail to scrub</div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="song" preload="auto">
+    <source src="assets/world-execute-me.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- embedded data: parsed from the local .mid / .lrc / mp3, no runtime fetching -->
+  <script src="data/notes.js"></script>
+  <script src="data/audio.js"></script>
+  <script src="data/lyrics.js"></script>
+  <!-- engine -->
+  <script src="engine/kit.js"></script>
+  <script src="engine/furniture.js"></script>
+  <script src="engine/data.js"></script>
+  <script src="engine/scenes-0.js"></script>
+  <script src="engine/scenes-1.js"></script>
+  <script src="engine/scenes-2.js"></script>
+  <script src="engine/layers.js"></script>
+  <script src="engine/main.js"></script>
+</body>
+</html>

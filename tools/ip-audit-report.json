@@ -1,0 +1,203 @@
+{
+ "when": "2026-09-28T08:16:22.473Z",
+ "staged": [
+  ".gitignore",
+  "engine/data.js",
+  "engine/furniture.js",
+  "engine/kit.js",
+  "engine/layers.js",
+  "engine/main.js",
+  "engine/scenes-0.js",
+  "engine/scenes-1.js",
+  "engine/scenes-2.js",
+  "index.html",
+  "LICENSE",
+  "README.md",
+  "style.css",
+  "tools/align-analysis.js",
+  "tools/align-result.json",
+  "tools/align.html",
+  "tools/align.mjs",
+  "tools/audit-ip.mjs",
+  "tools/build-data.mjs",
+  "tools/build-single.mjs",
+  "tools/cdp.mjs",
+  "tools/check-upload.mjs",
+  "tools/extract-audio.js",
+  "tools/extract.html",
+  "tools/mp3.js",
+  "tools/pitch-align-analysis.js",
+  "tools/pitch-align-result.json",
+  "tools/pitch-align.html",
+  "tools/preflight.mjs",
+  "tools/run-analysis.mjs",
+  "tools/salience-analysis.js",
+  "tools/salience-result.json",
+  "tools/salience.html",
+  "tools/shoot.mjs",
+  "tools/smf.js",
+  "tools/synth-align-analysis.js",
+  "tools/synth-align-result.json",
+  "tools/synth-align.html",
+  "tools/verify-standalone.mjs",
+  "tools/verify.mjs"
+ ],
+ "ignored": [
+  ".qoder-credits/report.json",
+  ".qoder-credits/请使用我提供的《world.execute(me__6a33fac7.canvas.tsx",
+  ".qoder-credits/请使用我提供的《world.execute(me__91ba5e10.canvas.tsx",
+  ".qoder-credits/请使用我提供的《world.execute(me__9afd05ff.canvas.tsx",
+  ".qoder-credits/请使用我提供的《world.execute(me__a6ceb28a.canvas.tsx",
+  ".qoder-credits/请使用我提供的《world.execute(me__d6e31250.canvas.tsx",
+  ".qoder-credits/请使用我提供的《world.execute(me__d7fca756.canvas.tsx",
+  "assets/world-execute-me.mp3",
+  "data/audio.js",
+  "data/lyrics.js",
+  "data/notes.js",
+  "Mili - world.execute (me) ;.mp3",
+  "single-preview.png",
+  "tools/audio-analysis.json",
+  "tools/ip-audit-report.json",
+  "tools/midi-notes.json",
+  "world-execute-me.html",
+  "world.execute(me);.mid",
+  "歌词.lrc"
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "code": "H1",
+   "detail": ".git exists: check history too — git log --all --name-only | grep -Ei \"\\.(mp3|mid|lrc)$\""
+  },
+  {
+   "level": "PASS",
+   "code": "A1",
+   "detail": "third-party media/asset file would be committed: none"
+  },
+  {
+   "level": "PASS",
+   "code": "D1",
+   "detail": "no staged file contains 5+ consecutive chart note times (1416 notes compared)"
+  },
+  {
+   "level": "PASS",
+   "code": "D2",
+   "detail": "no embedded feature/note table large enough to stand in for the audio or the chart"
+  },
+  {
+   "level": "PASS",
+   "code": "G:audio copy used by the page",
+   "detail": "1 present, all ignored (assets/world-execute-me.mp3 8282KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:audio feature dump",
+   "detail": "1 present, all ignored (tools/audio-analysis.json 104KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:generated data modules",
+   "detail": "3 present, all ignored (data/audio.js 85KB, data/lyrics.js 10KB, data/notes.js 24KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:ip audit report",
+   "detail": "1 present, all ignored (tools/ip-audit-report.json 5KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:local tooling state",
+   "detail": "7 present, all ignored (.qoder-credits/report.json 121KB, .qoder-credits/请使用我提供的《world.execute(me__6a33fac7.canvas.tsx 132KB, .qoder-credits/请使用我提供的《world.execute(me__91ba5e10.canvas.tsx 134KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:lyrics file",
+   "detail": "1 present, all ignored (歌词.lrc 3KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:midi chart",
+   "detail": "1 present, all ignored (world.execute(me);.mid 9KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:note table dump",
+   "detail": "1 present, all ignored (tools/midi-notes.json 57KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:recording",
+   "detail": "2 present, all ignored (assets/world-execute-me.mp3 8282KB, Mili - world.execute (me) ;.mp3 8282KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:screen capture of the work",
+   "detail": "1 present, all ignored (single-preview.png 389KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "G:single-file build (audio + lyrics inlined)",
+   "detail": "1 present, all ignored (world-execute-me.html 11304KB)"
+  },
+  {
+   "level": "PASS",
+   "code": "L2",
+   "detail": "no whole lyric line (4+ words) appears in any staged file"
+  },
+  {
+   "level": "PASS",
+   "code": "L3",
+   "detail": "no 4-word lyric fragment appears in any staged file"
+  },
+  {
+   "level": "PASS",
+   "code": "N1",
+   "detail": "remote URL present (the page must run offline): none"
+  },
+  {
+   "level": "PASS",
+   "code": "N2",
+   "detail": "bundled or remote font / CDN reference: none"
+  },
+  {
+   "level": "PASS",
+   "code": "N3",
+   "detail": "no package.json: nothing to install, no dependency licence surface"
+  },
+  {
+   "level": "PASS",
+   "code": "N4",
+   "detail": "imports are relative or node built-ins only: nothing to install"
+  },
+  {
+   "level": "PASS",
+   "code": "P1",
+   "detail": "absolute local path that reveals a user name: none"
+  },
+  {
+   "level": "PASS",
+   "code": "P2",
+   "detail": "e-mail address: none"
+  },
+  {
+   "level": "PASS",
+   "code": "Q1",
+   "detail": "possible upstream licence/copyright header: none"
+  },
+  {
+   "level": "PASS",
+   "code": "S1",
+   "detail": "credential-shaped string: none"
+  },
+  {
+   "level": "INFO",
+   "code": "D3",
+   "detail": "recording signature held out of the repo: 835 onsets + 5297x25Hz envelope in tools/audio-analysis.json, source assets/world-execute-me.mp3"
+  },
+  {
+   "level": "INFO",
+   "code": "L1",
+   "detail": "compared against 98 lyric lines from 歌词.lrc"
+  }
+ ]
+}

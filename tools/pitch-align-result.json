@@ -1,0 +1,163 @@
+{
+ "audio": {
+  "duration": 211.907,
+  "sampleRate": 48000,
+  "hopSec": 0.02133,
+  "frames": 9930,
+  "binHz": 11.719
+ },
+ "pitch": {
+  "identity": 0.3471,
+  "mean": 0.3575,
+  "best": {
+   "scale": 0.957,
+   "offset": -0.64,
+   "score": 0.3809
+  },
+  "top": [
+   {
+    "scale": 0.957,
+    "offset": -0.64,
+    "s": 0.3809
+   },
+   {
+    "scale": 0.949,
+    "offset": 0.4,
+    "s": 0.3804
+   },
+   {
+    "scale": 0.948,
+    "offset": 0.52,
+    "s": 0.3795
+   },
+   {
+    "scale": 0.944,
+    "offset": 1.16,
+    "s": 0.3793
+   },
+   {
+    "scale": 0.947,
+    "offset": 0.6,
+    "s": 0.3791
+   },
+   {
+    "scale": 0.954,
+    "offset": -0.48,
+    "s": 0.3791
+   },
+   {
+    "scale": 0.944,
+    "offset": 0.68,
+    "s": 0.3784
+   },
+   {
+    "scale": 0.946,
+    "offset": 0.64,
+    "s": 0.3779
+   },
+   {
+    "scale": 0.943,
+    "offset": 0.56,
+    "s": 0.3777
+   },
+   {
+    "scale": 0.955,
+    "offset": -0.56,
+    "s": 0.3773
+   },
+   {
+    "scale": 0.952,
+    "offset": 0.24,
+    "s": 0.3771
+   },
+   {
+    "scale": 0.949,
+    "offset": 0.64,
+    "s": 0.3768
+   }
+  ]
+ },
+ "onset": {
+  "best": {
+   "scale": 1.055,
+   "offset": 2.36,
+   "score": 0.2434
+  }
+ },
+ "phaseByWindow": [
+  {
+   "from": 0,
+   "offset": -0.78,
+   "score": 0.2574,
+   "atZero": 0.1959
+  },
+  {
+   "from": 20,
+   "offset": -0.57,
+   "score": 0.3582,
+   "atZero": 0.308
+  },
+  {
+   "from": 40,
+   "offset": 0.73,
+   "score": 0.4181,
+   "atZero": 0.3719
+  },
+  {
+   "from": 60,
+   "offset": -0.66,
+   "score": 0.4555,
+   "atZero": 0.4305
+  },
+  {
+   "from": 80,
+   "offset": -0.3,
+   "score": 0.3798,
+   "atZero": 0.3398
+  },
+  {
+   "from": 100,
+   "offset": -0.77,
+   "score": 0.4138,
+   "atZero": 0.3645
+  },
+  {
+   "from": 120,
+   "offset": -0.62,
+   "score": 0.4461,
+   "atZero": 0.4036
+  },
+  {
+   "from": 140,
+   "offset": 0.97,
+   "score": 0.3923,
+   "atZero": 0.3458
+  }
+ ],
+ "localScale40": [
+  {
+   "from": 0,
+   "scale": 0.9375,
+   "offset": 1.2,
+   "score": 0.3207
+  },
+  {
+   "from": 40,
+   "scale": 0.9605,
+   "offset": 0.56,
+   "score": 0.4322
+  },
+  {
+   "from": 80,
+   "scale": 0.949,
+   "offset": -0.06,
+   "score": 0.4052
+  },
+  {
+   "from": 120,
+   "scale": 0.9535,
+   "offset": -0.18,
+   "score": 0.419
+  }
+ ]
+}

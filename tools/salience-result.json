@@ -1,0 +1,121 @@
+{
+ "audio": {
+  "duration": 211.907,
+  "sampleRate": 48000,
+  "hopSec": 0.01067,
+  "frames": 19863
+ },
+ "onsetsUnique": 614,
+ "identityScore": 0.1905,
+ "globalCoarse": {
+  "scale": 1.154,
+  "offset": 7.1,
+  "score": 0.2215
+ },
+ "globalFine": {
+  "scale": 1.1538,
+  "offset": 7.125,
+  "score": 0.2242
+ },
+ "impliedBpmFromMidiGrid": 104,
+ "windows": [
+  {
+   "from": 0,
+   "to": 20,
+   "n": 73,
+   "offset": 3.9,
+   "s": 0.1786,
+   "atZero": 0.1303
+  },
+  {
+   "from": 20,
+   "to": 40,
+   "n": 75,
+   "offset": -3.5,
+   "s": 0.2018,
+   "atZero": 0.1617
+  },
+  {
+   "from": 40,
+   "to": 60,
+   "n": 73,
+   "offset": 3.9,
+   "s": 0.2609,
+   "atZero": 0.2127
+  },
+  {
+   "from": 60,
+   "to": 80,
+   "n": 78,
+   "offset": -3.66,
+   "s": 0.2337,
+   "atZero": 0.1922
+  },
+  {
+   "from": 80,
+   "to": 100,
+   "n": 87,
+   "offset": 3.9,
+   "s": 0.2145,
+   "atZero": 0.1788
+  },
+  {
+   "from": 100,
+   "to": 120,
+   "n": 67,
+   "offset": -3.08,
+   "s": 0.2511,
+   "atZero": 0.2041
+  },
+  {
+   "from": 120,
+   "to": 140,
+   "n": 73,
+   "offset": 3.96,
+   "s": 0.2124,
+   "atZero": 0.173
+  },
+  {
+   "from": 140,
+   "to": 160,
+   "n": 88,
+   "offset": 3.54,
+   "s": 0.3391,
+   "atZero": 0.3081
+  }
+ ],
+ "windowsFree": [
+  {
+   "from": 0,
+   "to": 40,
+   "n": 148,
+   "scale": 1.1543,
+   "offset": 2.96,
+   "s": 0.1789
+  },
+  {
+   "from": 40,
+   "to": 80,
+   "n": 151,
+   "scale": 1.1538,
+   "offset": -1.64,
+   "s": 0.2232
+  },
+  {
+   "from": 80,
+   "to": 120,
+   "n": 154,
+   "scale": 1.1538,
+   "offset": 3.32,
+   "s": 0.2152
+  },
+  {
+   "from": 120,
+   "to": 160,
+   "n": 161,
+   "scale": 1.1718,
+   "offset": 3.98,
+   "s": 0.2828
+  }
+ ]
+}
